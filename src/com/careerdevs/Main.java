@@ -8,5 +8,11 @@ public class Main {
         String lastName = "Kopel";
         String fullName = firstName + " " + lastName;
         System.out.println(fullName);
+        System.out.println(createFullName("First","Last"));
+
+    }
+
+    public static String createFullName(String firstName, String lastName){
+        return firstName + " " + lastName;
     }
 }
