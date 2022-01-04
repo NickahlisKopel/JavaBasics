@@ -9,6 +9,7 @@ public class Main {
         String fullName = firstName + " " + lastName;
         System.out.println(fullName);
         System.out.println(createFullName("First","Last"));
+        System.out.println(NameGenerator.generateFullName("Marry","Jane"));
 
     }
 
