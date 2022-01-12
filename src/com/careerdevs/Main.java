@@ -1,5 +1,8 @@
 package com.careerdevs;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -13,13 +16,12 @@ public class Main {
         Car camaro = new Car("Camaro 2SS","Chevy",10000,0.10f);
         Car mustang = new Car("Mustang GT","Ford",30000,0.50f);
         Car hellcat = new Car("Hellcat","Dodge",100,0.90f);
-        System.out.println("Make: " + camaro.make);
-        System.out.println("Model: " + camaro.model);
-        System.out.println("Make: " + mustang.make);
-        System.out.println("Model: " + mustang.model);
-        System.out.println("Make: " + hellcat.make);
-        System.out.println("Model: " + hellcat.model);
 
+        Car[] myCarArr = new Car[] {camaro,mustang,hellcat};
+
+        for(int i = 0; i < myCarArr.length; i++){
+            System.out.println(myCarArr[i].make + " " + myCarArr[i].model);
+        }
     }
 
 
