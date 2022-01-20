@@ -13,10 +13,12 @@ public class Main {
         short numOfLegs = scanner.nextShort();
         scanner.nextLine();
 
-        System.out.println("it lives on land?");
+        System.out.print("it lives on land?: ");
         boolean livesOnLand = scanner.nextBoolean();
 
         Animal animal = new Animal(species,numOfLegs,livesOnLand);
+
+        System.out.println(animal);
 
     }
 }

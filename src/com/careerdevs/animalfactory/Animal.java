@@ -14,7 +14,7 @@ public class Animal {
     @Override
     public String toString() {
         return "species: " + species +
-                "legs: " + legs +
-                "livesOnLand: " + livesOnLand;
+                " legs: " + legs +
+                " livesOnLand: " + livesOnLand;
     }
 }
