@@ -1,4 +1,4 @@
-package com.careerdevs.company;
+package com.careerdevs.companyfactory;
 
 import java.util.Scanner;
 
@@ -13,7 +13,7 @@ public class Main {
         short yearEstablished = scanner.nextShort();
         scanner.nextLine();
 
-        System.out.println("What is the Market Cap?: ");
+        System.out.print("What is the Market Cap?: ");
         double marketCap = scanner.nextDouble();
         scanner.nextLine();
 

@@ -1,4 +1,4 @@
-package com.careerdevs.company;
+package com.careerdevs.companyfactory;
 
 public class Company {
     public String name;
