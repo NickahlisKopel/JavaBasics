@@ -1,7 +1,5 @@
 package com.careerdevs.carfactory;
 
-import com.careerdevs.Car;
-
 import java.util.Scanner;
 
 public class Main {

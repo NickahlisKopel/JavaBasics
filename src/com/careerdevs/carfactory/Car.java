@@ -1,4 +1,4 @@
-package com.careerdevs;
+package com.careerdevs.carfactory;
 
 public class Car {
    public String make;
