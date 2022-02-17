@@ -1,0 +1,36 @@
+NOTES:
+API takes a request and returns a response.
+Create
+Read
+Update
+Delete
+
+Http:
+Post
+Get
+Put
+Delete
+
+Request:
+	Header:
+		App Key
+	Operator:
+		Create,Read,etc.
+	End Point:
+		Resource
+	Param/Body:
+		Data to send with request.
+Response:
+	Some json data
+
+Example:
+http://icecream.com/api/flavors
+Get flavors:
+GET /flavors
+Update flavors:
+	PUT /flavors/1 {“flavor”:”chocolate”}
+Create flavor:
+POST /flavors {“flavor”: “RESTful rasberry”}
+
+PARAGRAPH ANSWER:
+	An API (application program interface) lets one piece of software communicate with another. It does this by taking a request and returning a response. Web APIs that fetch data from the server allow the developer to display, create, update, and delete data. There are also Web APIs that allow you to manipulate data such as audio and video. APIs help the developer more easily add features that otherwise would be hard to implement.
